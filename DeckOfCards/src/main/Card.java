@@ -33,13 +33,17 @@ public abstract class Card {
     System.out.print(faceValues[faceValue-1]);
     switch (suit) {
       case Club:
-        System.out.print(" of Clubs");
+        System.out.print("C ");
+        break;
       case Heart:
-        System.out.print(" of Hearts");
+        System.out.print("H ");
+        break;
       case Diamond:
-        System.out.print(" of Diamonds");
+        System.out.print("D ");
+        break;
       case Spade:
-        System.out.print(" of Spades");
+        System.out.print("S ");
+        break;
     }
   }
 }
